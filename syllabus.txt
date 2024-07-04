@@ -1,4 +1,4 @@
 ch 1 - MCQS
-ch 2 - BInary addition
+ch 2 - Binary addition
 ch 6 - MCQS
 ch 7 - Programs, find out errors, write the output
