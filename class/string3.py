@@ -6,3 +6,4 @@ string2 = input("String 2: ")
 if string1 in string2:
     string3 = string2[0:5] + "restore"
     print(string3)
+            
