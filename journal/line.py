@@ -21,10 +21,10 @@ for a in line:
         uppercount += 1
     elif a.isdigit():
         digitcount += 1
-    elif a.isalpha():
-        alphacount += 1
     elif a.isalnum() != True and a != ' ':
         symcount += 1
+
+alphacount = uppercount + lowercount
 
 print(f'Number of Characters: {len(line)}')
 print(f'Number of Alphabets: {alphacount}')
