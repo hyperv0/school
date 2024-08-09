@@ -1,4 +1,4 @@
-#WAP that displays options fro inserting or deleting element in the list. if the user chooses a deleting option diplay submenu and ask if element is to be deleted with value or by using its position or list slice is to be deleted. 
+#WAP that displays options for inserting or deleting element in the list. if the user chooses a deleting option diplay submenu and ask if element is to be deleted with value or by using its position or list slice is to be deleted. 
 
 val = [17,23,19,19]
 print('The original list', val)
@@ -16,6 +16,11 @@ while True:
         index = pos - 1
         val.insert(index, item)
         print(val)
+    elif ch == 2:
+        item = int(input("Enter The item: "))
+        #pos = int(input("Enter the postion: "))
+        #index = pos - 1
+        val.remove(item)
+        print(val)
     elif ch == 3:
         break
-
