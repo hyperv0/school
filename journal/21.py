@@ -17,10 +17,13 @@ while True:
         val.insert(index, item)
         print(val)
     elif ch == 2:
-        item = int(input("Enter The item: "))
-        #pos = int(input("Enter the postion: "))
-        #index = pos - 1
-        val.remove(item)
-        print(val)
+         print('1.  Delete using value')
+         print('2. Delete using index')
+         print('3. Delete a sublist')
+         dch = int(input("Your Choice:  "))
+         if dch == 1:
+            item = int(input("Enter The item: "))
+            val.remove(item)
+            print('Now the list is', val)
     elif ch == 3:
         break
