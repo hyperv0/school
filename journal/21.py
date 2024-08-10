@@ -37,5 +37,4 @@ while True:
     elif ch == 3:
         break
     else:
-        print('Valid choice only 1, 2 and 3')
-        
+        print('Valid choices are only 1, 2 and 3')
