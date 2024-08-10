@@ -17,13 +17,22 @@ while True:
         val.insert(index, item)
         print(val)
     elif ch == 2:
-         print('1.  Delete using value')
+         print('1. Delete using value')
          print('2. Delete using index')
          print('3. Delete a sublist')
          dch = int(input("Your Choice:  "))
          if dch == 1:
-            item = int(input("Enter The item: "))
+            item = int(input("Enter The value: "))
             val.remove(item)
+            print('Now the list is', val)
+         elif dch == 2:
+            index = int(input("Enter the index no: "))
+            val.pop(index)
+            print('Now the list is', val)
+         elif dch == 3:
+            l = int(input("Enter the lower limit: "))
+            h = int(input("Enter the higher limit: "))
+            del val[l:h]
             print('Now the list is', val)
     elif ch == 3:
         break
