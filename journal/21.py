@@ -36,3 +36,6 @@ while True:
             print('Now the list is', val)
     elif ch == 3:
         break
+    else:
+        print('Valid choice only 1, 2 and 3')
+        
