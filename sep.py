@@ -3,7 +3,7 @@
 lst = eval(input('Enter the list: '))
 
 lst2 = sorted(lst)
-lst3 = sorted(lst, reverse='True')
+lst3 = sorted(lst, reverse=True)
  
 print(lst2)
 print(lst3)
