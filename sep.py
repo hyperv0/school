@@ -2,8 +2,8 @@
 
 lst = eval(input('Enter the list: '))
 
-lst2 = lst.sorted()
-lst3 = lst.sorted(reversed='True')
+lst2 = sorted(lst)
+lst3 = sorted(lst, reversed='True')
  
 print(lst2)
 print(lst3)
