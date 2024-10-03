@@ -1,0 +1,4 @@
+#WAP to input a list and element and remove all occurances of a given element from the list - 19
+#WAP to read a list of n integers (positive as well as negative) create two new lists one having all postive no. and another having all negative numbers   - 20
+#WAP to check if all the elements of a tuple are in descending order or not - 21
+#WAP to input 4 elements tuple and unpack it to four variable . Then recreate the tuple with element swapped as 1 st element with 3rd and 2nd with 4th element - 22
