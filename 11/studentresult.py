@@ -15,6 +15,7 @@ for i in range(n):
     name = input('Enter the name: ')
     t_marks = int(input('Enter the marks: '))
     avg = float(input('Average: '))
+    print()
     t = (name, t_marks, avg)
     tup += (t,)
 
