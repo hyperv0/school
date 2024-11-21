@@ -60,3 +60,6 @@ while True:
     #exit
     elif ch == 5:
         break
+    
+    else:
+        print('Invalid choice.')
