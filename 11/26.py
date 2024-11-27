@@ -11,14 +11,14 @@ dict = {}
 ch = 'Y'
 
 while ch == 'Y' or ch == 'y':
-    name = input('Enter the product name: ')
-    price = eval(input('Enter the product price: '))
-    dict[name] = price
+    cust_name = input('Enter the product name: ')
+    phone = eval(input('Enter the product price: '))
+    dict[name] = phone
     ch = input('Do you want to add more records? ')
 
 print(dict)
-prod_name = input('Enter the product to be searched: ')
+cust_name = input('Enter the customer to be searched: ')
 
 for i in dict:
-    if i == prod_name:
-        print('product found', i, 'with price as', dict[i])
+    if i == cust_name:
+        print('customer found', i, 'with phone as', dict[i])
