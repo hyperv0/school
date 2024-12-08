@@ -1,0 +1,1 @@
+robocopy "\\PC1\ValorantShare" "D:\Games\Valorant" /MIR /Z /W:5 /R:3 /LOG:copylog.txt /MT:64
