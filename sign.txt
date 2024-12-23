@@ -1,0 +1,1 @@
+/give @a oak_sign[block_entity_data={id:oak_sign,front_text:{messages:['[{"text":"Get Kit","clickEvent":{"action":"run_command","value":"function kits:thekit"}}]','[""]','[" "]','[""]']}}]
