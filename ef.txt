@@ -1,0 +1,13 @@
+execute item replace entity @s armor.head with diamond_helmet[enchantments={levels:{"minecraft:fire_protection":2,"minecraft:protection":2,"minecraft:unbreaking":3}}] 1
+
+execute item replace entity @s armor.chest with diamond_chestplate[enchantments={levels:{"minecraft:fire_protection":1,"minecraft:protection":3,"minecraft:unbreaking":3}}] 1
+
+execute item replace entity @s armor.legs with diamond_leggings[enchantments={levels:{"minecraft:fire_protection":1,"minecraft:protection":3,"minecraft:unbreaking":3}}] 1
+
+execute item replace entity @s armor.feet with diamond_boots[enchantments={levels:{"minecraft:protection":3,"minecraft:unbreaking":3}}] 1
+
+execute item replace entity @s weapon.mainhand with diamond_sword[enchantments={levels:{"minecraft:fire_aspect":1,"minecraft:knockback":1,"minecraft:sharpness":5}}] 1
+
+execute item replace entity @s hotbar.0 with golden_apple 10
+
+execute tellraw @s {"bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"","color":"dark_blue"}]},"text":"You got the kit!"}
