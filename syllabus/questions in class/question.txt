@@ -1,0 +1,5 @@
+q - what is strip()
+q - reverse a string without a function (using index)
+q - differenciate between pop and del
+q - a bank is financial insitution... [case study - menu ] (list)
+        1. open a savings bank account
