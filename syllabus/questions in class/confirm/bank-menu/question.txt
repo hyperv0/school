@@ -1,0 +1,17 @@
+Banking System Program
+
+A bank is a financial institution involved in borrowing and lending of money. With advancement in technology, online banking, also known as internet banking, allows customers of a bank to conduct a range of financial transactions through the bank’s website anytime, anywhere.
+
+Two basic operations performed in an account are Deposit and Withdrawal.
+
+Write a menu-driven program that:
+	•	Accepts either of the two choices: Deposit or Withdrawal
+	•	Accepts an amount
+	•	Performs the transaction and accordingly displays the balance
+
+The program should display the following options:
+	1.	Open a savings bank account
+	2.	Add a customer
+	3.	Deposit money
+	4.	Display sorted records
+	5.	Close/delete account
