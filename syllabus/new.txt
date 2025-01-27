@@ -1,0 +1,18 @@
+15 - MARKS
+--------------------------------------
+1.Computer System Organisation - (1M questions)
+2. Data representation - (1M, 2M)
+
+
+55 - MARKS
+---------------------------------------
+3. Ch-|5,6,7| |8,9| |10,11,12,13,14,15| - (1M, 2M, 3M, 4M, 5M)
+
+--------------------------------------
+questions
+
+1 - 21 : 1M (Q-20, 21 : Assertion & Reasons)
+22 - 28 : 2M (Q27 - Internal Choice)
+29 - 31 : 3M (Q- 29, 30,31)
+32 - 35 : 4M (Q- 32)
+36 - 37 : 5M
